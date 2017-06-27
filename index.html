@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Product-Listing Task</title>
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<!-- stylesheets css -->
+
+  	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="fluid-container">
+     
+        <header>
+          <div class="custom-navbar">
+          <div class="sticky-top center-block">
+            <div class="menu">
+              <div class="menu-items-group">
+                <ul>
+                  <li>Welcome to Clothes Shop</li>
+                  <li>Sign in</li>
+                  <li><img src="images/cart.png" width="12px" height="16px" alt="cart">Cart (0)</li>
+                </ul>
+              </div>
+            </div>
+            <hr class="horizontal-line"> 
+            <div class="text-icon"> 
+            <div class="truck">
+              <span class="logo">
+                <img src="images/logo.png" alt="">
+              </span>
+              <span class="notify-text">
+                <span><img src="images/truck.png" alt="truck">Free Shipping</span>
+              </span>
+            </div>
+            </div>
+            <div class="search-block">
+              <div class="search-box">
+                <input type="text" placeholder="Search this site"><img src="images/magnifier.png" class="magnifier" alt="" height="20px">
+              </div> 
+            </div>
+          </div>
+          <div class="list">
+            <div class="list-items center-block text-center">
+              <ul>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Measurement Profile</a></li>
+                <li><a href="">Customize</a></li>
+                <li><a href="">How it works</a></li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </header> 
+        <section class="content-block">
+          <div class="outer-class">
+          <div class="row">
+            <div class="col-xs-3">
+              <div class="side-bar">
+                <div class="filter">
+                  <h3>Occasion</h3>
+                  <div class="occasion">
+                    <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">Dress Shirts</div>
+                      </label>
+                    </div>
+                    <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">friday casuals</div>
+                      </label>
+                    </div>
+                    <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">sunday brunches</div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter">
+                  <h3>color</h3>
+                  <div class="occasion">
+                    <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">white</div>
+                      </label>
+                    </div>
+                    <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">blue</div>
+                      </label>
+                    </div>
+                    <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">red</div>
+                      </label>
+                    </div>
+                     <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">grey</div>
+                      </label>
+                    </div>
+                     <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">black</div>
+                      </label>
+                    </div>
+                     <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">pink</div>
+                      </label>
+                    </div>
+                     <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">orange</div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter">
+                  <h3>Patterns</h3>
+                  <div class="occasion">
+                    <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">stripes</div>
+                      </label>
+                    </div>
+                    <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">checks</div>
+                      </label>
+                    </div>
+                    <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">plain</div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter">
+                  <h3>fabrics</h3>
+                  <div class="occasion">
+                    <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">plain</div>
+                      </label>
+                    </div>
+                    <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">poplin</div>
+                      </label>
+                    </div>
+                    <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">oxford</div>
+                      </label>
+                    </div>
+                      <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">pinpoint</div>
+                      </label>
+                    </div>
+                      <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">fil-a-fil</div>
+                      </label>
+                    </div>
+                      <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">Twill</div>
+                      </label>
+                    </div>
+                      <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">Herring bone</div>
+                      </label>
+                    </div>
+                      <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">dobby</div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter">
+                  <h3>collar</h3>
+                  <div class="occasion">
+                    <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">classic</div>
+                      </label>
+                    </div>
+                    <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">buttoned down</div>
+                      </label>
+                    </div>
+                    <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">spread</div>
+                      </label>
+                    </div>
+                      <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">wide spread</div>
+                      </label>
+                    </div>
+                      <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">wing type</div>
+                      </label>
+                    </div>
+                      <div class="category-selection">
+                      <label>
+                        <input type="checkbox" readonly="" value="on">
+                        <div class="show-div"></div>
+                        <div class="label-text">banded</div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-9">
+              <div class="product-block">
+                <div class="title text-center">DRESS SHIRTS</div>
+                <hr class="seperation-line">
+                <div class="product-group">
+                  <div class="row">
+                    <div class="col-xs-4">
+                      <div class="single-product text-center">
+                        <a href="">
+                         <img src="images/shirt-1.png" alt="">
+                         <div class="product-info">
+                           <h6>Custom-Fit Checked Dress Shirt</h6>
+                           <h4>Rs. 3000/-</h4>
+                         </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-xs-4">
+                      <div class="single-product text-center">
+                        <a href="">
+                         <img src="images/shirt-1.png" alt="">
+                         <div class="product-info">
+                           <h6>Custom-Fit Checked Dress Shirt</h6>
+                           <h4>Rs. 3000/-</h4>
+                         </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-xs-4">
+                      <div class="single-product text-center">
+                        <a href="">
+                         <img src="images/shirt-1.png" alt="">
+                         <div class="product-info">
+                           <h6>Custom-Fit Checked Dress Shirt</h6>
+                           <h4>Rs. 3000/-</h4>
+                         </div>
+                        </a>
+                      </div>
+                    </div>
+                   <div class="col-xs-4">
+                      <div class="single-product text-center">
+                        <a href="">
+                         <img src="images/shirt-1.png" alt="">
+                         <div class="product-info">
+                           <h6>Custom-Fit Checked Dress Shirt</h6>
+                           <h4>Rs. 3000/-</h4>
+                         </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-xs-4">
+                      <div class="single-product text-center">
+                        <a href="">
+                         <img src="images/shirt-1.png" alt="">
+                         <div class="product-info">
+                           <h6>Custom-Fit Checked Dress Shirt</h6>
+                           <h4>Rs. 3000/-</h4>
+                         </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-xs-4">
+                      <div class="single-product text-center">
+                        <a href="">
+                         <img src="images/shirt-1.png" alt="">
+                         <div class="product-info">
+                           <h6>Custom-Fit Checked Dress Shirt</h6>
+                           <h4>Rs. 3000/-</h4>
+                         </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-xs-4">
+                      <div class="single-product text-center margin-40">
+                        <a href="">
+                         <img src="images/shirt-1.png" alt="">
+                         <div class="product-info">
+                           <h6>Custom-Fit Checked Dress Shirt</h6>
+                           <h4>Rs. 3000/-</h4>
+                         </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-xs-4">
+                      <div class="single-product text-center margin-40">
+                        <a href="">
+                         <img src="images/shirt-1.png" alt="">
+                         <div class="product-info">
+                           <h6>Custom-Fit Checked Dress Shirt</h6>
+                           <h4>Rs. 3000/-</h4>
+                         </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-xs-4">
+                      <div class="single-product text-center margin-40">
+                        <a href="">
+                         <img src="images/shirt-1.png" alt="">
+                         <div class="product-info">
+                           <h6>Custom-Fit Checked Dress Shirt</h6>
+                           <h4>Rs. 3000/-</h4>
+                         </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="stitching-block"> 
+            <div class="row">
+              <div class="col-xs-12 image-container">
+                <div class="tape img">
+                  <img src="images/tape.png" alt="">
+                </div>
+                <div class="big-button img">
+                  <img src="images/button-1.png" alt="">
+                </div>
+                <div class="small-button img">
+                  <img src="images/button-2.png" alt="">
+                </div>
+                <div class="needle img">
+                  <img src="images/small-needle.png" alt="">
+                </div>
+                <div class="thread img">
+                  <img src="images/thread.png" alt="">
+                </div>
+              </div>
+            </div>
+            </div>
+        </section> 
+        <footer>
+        <div class=""> 
+          <div class="cards-block">
+            <img src="images/guarantee.png" alt="">
+            <span>Need Help? Call Us On: <b>+91 9820416772</b></p>
+            <div class="visa-cards">
+              <div class="vis">
+                <a href=""><img src="images/net-banking.png" alt=""></a>
+                <a href=""><img src="images/cod.png" alt=""></a>
+                <a href=""><img src="images/mastercard.png" alt=""></a>
+                <a href=""><img src="images/visa.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-menu">
+            <div class="footer-links center-block">
+              <div class="row">
+              <div class="links col-xs-3">
+                  <ul>
+                    <a href="">about us</a>
+                    <a href="">about us</a>
+                    <a href="">about us</a>
+                    <a href="">about us</a>
+                  </ul>
+                </div>
+                <div class="links col-xs-3">
+                  <ul>
+                    <a href="">about us</a>
+                    <a href="">about us</a>
+                    <a href="">about us</a>
+                    <a href="">about us</a>
+                  </ul>
+                </div>
+                <div class="links col-xs-3">
+                  <ul>
+                    <a href="">about us</a>
+                    <a href="">about us</a>
+                    <a href="">about us</a>
+                    <a href="">about us</a>
+                  </ul>
+                </div>
+                <div class="links col-xs-3">
+                  <ul class="last-child">
+                    <a href="">about us</a>
+                    <a href="">about us</a>
+                    <a href="">about us</a>
+                    <a href="">about us</a>
+                  </ul>
+                </div>
+                </div>
+            </div> 
+          </div>
+          <div class="social-contact-section">
+            <div class="row">
+              <div class="connect col-xs-4">
+                 <h4>CONNECT WITH US</h4>
+                 <ul class="social-links">
+                    <a href="">
+                      <img src="images/fb.png" alt="">
+                    </a>
+                    <a href="">
+                      <img src="images/twitter.png" alt="">
+                    </a>
+                    <a href="">
+                      <img src="images/pinterest.png" alt="">
+                    </a>
+                    <a href="">
+                      <img src="images/w.png" alt="">
+                    </a>
+                    <a href="">
+                      <img src="images/insta.png" alt="">
+                    </a>
+                  </ul>
+                </div>
+                <div class="col-xs-8">
+                  <div class="subscribe-letter">
+                    <div class="row">
+                      <div class="col-xs-3">
+                        <h5>Subscribe to Our Newsletter</h5>
+                      </div>
+                      <div class="col-xs-8">
+                        <div class="row">
+                          <div class="col-xs-12">
+                            <input type="text" placeholder="Email address" class="input-email">
+                          </div>
+                          <div class="row">
+                            <div class="col-xs-12">
+                              <p class="notice"> *your personal information will not be shared with third parties</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-1">
+                        <button> send</button>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+                </div>
+                <hr class="horizontal-line">
+                <div class="copyright">
+                  <ul>
+                    <li>copyright &#9400; 16stitches 2017</li>
+                    <li>all rights reserved</li>
+                  </ul>
+                </div>
+            </footer>
+          </div>
+ 
+
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
