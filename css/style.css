@@ -101,11 +101,16 @@ header {
 }
 
 
-.logo img {
+.logo-img{
   height: 42px;
   margin-top: 20px;
 }
 
+.needle-img{
+      position: relative;
+    top: 15px;
+    left: -292px;
+}
 .notify-text {
   border: 1px solid blue;
   top: 30px;
@@ -688,4 +693,24 @@ padding-left: 0;
 padding-right: 0;
  }
 
+ .vis img {
+   
+    padding: 5px;
+}
+
+.subscribe-letter h5 {
+   
+    margin-right: 0;
+   
+    margin-left: -5px;
+    font-size: 10px;
+}
+
+.subscribe-letter {
+width: 100%;
+}
+
+.notice{
+  font-size: 8px;
+}
 }
